@@ -25,7 +25,6 @@ beta2 <- -0.1
 phis  <- c(0.3, 0.8)   # cenários de phi a comparar
 
 # número de réplicas de Monte Carlo, um valor DIFERENTE por cenário de phi
-# (nome do vetor = valor de phi em texto, pra buscar depois por "as.character(phi_val)")
 Rs <- setNames(c(25, 50), as.character(phis))
 # Rs[["0.3"]] == 1000   |   Rs[["0.8"]] == 5000
 
